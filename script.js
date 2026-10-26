@@ -4,6 +4,8 @@ let produits = [
   { id: 2, nom: "Biscuits", prix: 8 }
 ];
 let prochainId = 3;
+const listeProduits = document.getElementById("liste-produits");
+const produitElement = document.createElement("div");
 
 // À vous de jouer :
 // 1. Afficher les produits du tableau au chargement.
