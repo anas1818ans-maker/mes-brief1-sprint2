@@ -85,7 +85,6 @@ FORM.addEventListener("submit", function (event) {
 
   MESSAGE.textContent = "";
   FORM.reset();
-  NOM.focus();
 });
 
 afficherProduits();
